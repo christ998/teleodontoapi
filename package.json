@@ -1,0 +1,43 @@
+{
+  "name": "teleodonto-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f .env  react-scripts start",
+    "build": "env-cmd -f .env react-scripts build && gulp licenses",
+    "test": "env-cmd -f .env react-scripts test",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/teleodonto/teleodontoapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/teleodonto/teleodontoapi/issues"
+  },
+  "homepage": "https://gitlab.com/teleodonto/teleodontoapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.1",
+    "hybrid-crypto-js": "^0.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.27",
+    "mongoose": "^5.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "sessionstorage": "^0.1.0",
+    "store": "^2.0.12"
+  }
+}
